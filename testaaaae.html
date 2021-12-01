@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    function calculaSalario(){
+        var valor = document.getElementById("valor").value;
+        var quantidade = document.getElementById("quantidade").value;
+        var salario = valor*quantidade;
+        alert(Math. random(998));
+        
+    }
+</script>
+<body>
+
+    <fieldset>
+        <legend>Cálculo do salário</legend>
+        <p>Nome</p>
+        <input id="valor" type="text"/>
+        <p>Valor da hora</p>
+        <input id="valor" type="text"/>
+        <p>Quantidade de horas trabalhadas</p>
+        <input id="quantidade" type="text"/>
+        <p>Salario Bruto</p>
+        <input id="quantidade" type="text"/>
+        <p>IRRF</p>
+        <input id="quantidade" type="text"/>
+        <p>Gratificação</p>
+        <input id="quantidade" type="text"/>
+        <p>Salario liquido</p>
+        <input id="quantidade" type="text"/>
+        <button id="calcular" onclick="calculaSalario()">Calcular salário</button>
+    </fieldset>   
+</body>
+    
+
+</html>
